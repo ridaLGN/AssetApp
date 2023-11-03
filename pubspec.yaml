@@ -1,0 +1,509 @@
+name: my_app
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+
+ #   - images/a_dot_burr.jpeg
+   
+    - assets/cover/images/rectangle-10.png
+    - assets/design/images/rectangle-8-bg.png
+    - assets/cover/images/rectangle-8.png
+    - assets/cover/images/rectangle-7.png
+    - assets/cover/images/arrow-left-line.png
+    - assets/design/images/rectangle-7-xoy.png
+    - assets/cover/images/statusbar-battery.png
+    - assets/cover/images/rectangle-11.png
+    - assets/design/images/icon-email.png
+    - assets/cover/images/rectangle-9.png
+    - assets/cover/images/wifi.png
+    - assets/cover/images/wifi-dMR.png
+    - assets/cover/images/vector.png
+    - assets/cover/images/vector-5.png
+    - assets/design/images/wifi-Zkj.png
+    - assets/cover/images/icon-email-tdu.png
+    - assets/design/images/wifi-9gB.png
+    - assets/design/images/statusbar-battery-CLF.png
+    - assets/cover/images/vector-irK.png
+    - assets/design/images/arrow-left-line-onF.png
+    - assets/cover/images/button-back-solid.png
+    - assets/cover/images/icon-mobile-signal.png
+    - assets/design/images/rectangle-6-bg.png
+    - assets/design/images/vector-i71.png
+    - assets/design/images/statusbar-battery-3MZ.png
+    - assets/cover/images/button-arrow-transparent.png
+    - assets/cover/images/wifi-HVH.png
+    - assets/cover/images/wifi-Suu.png
+    - assets/design/images/facebook-svg.png
+    - assets/design/images/button-arrow-transparent-JUo.png
+    - assets/cover/images/icon-email-YXZ.png
+    - assets/cover/images/wifi-cSs.png
+    - assets/design/images/vector-GGX.png
+    - assets/design/images/icon-mobile-signal-xBH.png
+    - assets/design/images/vector-ffM.png
+    - assets/cover/images/vector-ySX.png
+    - assets/cover/images/arrow-left-line-Jjh.png
+    - assets/cover/images/statusbar-battery-PYB.png
+    - assets/cover/images/icon-mobile-signal-8kf.png
+    - assets/cover/images/undrawcitylifegnpr-1.png
+    - assets/design/images/group-1171274724.png
+    - assets/cover/images/rectangle-8-Gxo.png
+    - assets/cover/images/facebook-svg-Q3R.png
+    - assets/design/images/icon-mobile-signal-YcX.png
+    - assets/design/images/group-1171274734-sbu.png
+    - assets/design/images/google-svg.png
+    - assets/cover/images/wifi-JVD.png
+    - assets/cover/images/statusbar-battery-yrF.png
+    - assets/design/images/arrow-left-line-jaX.png
+    - assets/cover/images/facebook-svg-q7m.png
+    - assets/design/images/button-arrow-transparent-NtP.png
+    - assets/cover/images/vector-5-oyh.png
+    - assets/design/images/wifi-GsH.png
+    - assets/design/images/wifi-UH5.png
+    - assets/design/images/icon-lock.png
+    - assets/cover/images/icon-mobile-signal-qhH.png
+    - assets/design/images/rectangle-9-ncX.png
+    - assets/design/images/statusbar-battery-sP5.png
+    - assets/cover/images/google-svg-stB.png
+    - assets/cover/images/icon-lock-w4j.png
+    - assets/cover/images/vector-5wd.png
+    - assets/cover/images/icon-mobile-signal-EZd.png
+    - assets/cover/images/button-arrow-transparent-fuq.png
+    - assets/design/images/wifi-31H.png
+    - assets/cover/images/icon-email-CPy.png
+    - assets/cover/images/icon-mobile-signal-9q1.png
+    - assets/cover/images/statusbar-battery-6kF.png
+    - assets/cover/images/statusbar-battery-G8w.png
+    - assets/cover/images/statusbar-battery-1sD.png
+    - assets/design/images/icon-mobile-signal-Nhm.png
+    - assets/design/images/auto-group-dhtb.png
+    - assets/design/images/icon-email-d5H.png
+    - assets/design/images/icon-chevron-down.png
+    - assets/design/images/statusbar-battery-WYP.png
+    - assets/design/images/vector-KY3.png
+    - assets/cover/images/icon-lock-aD5.png
+    - assets/cover/images/google-svg-w75.png
+    - assets/cover/images/rectangle-6.png
+    - assets/cover/images/icon-profile.png
+    - assets/design/images/icon-mobile-signal-Axw.png
+    - assets/design/images/facebook-svg-ijZ.png
+    - assets/design/images/icon-profile-fuh.png
+    - assets/design/images/wifi-dk3.png
+    - assets/cover/images/icon-mobile-signal-3om.png
+    - assets/design/images/rectangle-8-GRd.png
+    - assets/design/images/rectangle-11-Muy.png
+    - assets/design/images/icon-mobile-signal-w11.png
+    - assets/design/images/statusbar-battery-1Yb.png
+    - assets/design/images/icon-email-fRh.png
+    - assets/design/images/vector-oAX.png
+    - assets/design/images/vector-U15.png
+    - assets/design/images/image-3-bg.png
+    - assets/design/images/statusbar-battery-Wb9.png
+    - assets/design/images/vector-RUj.png
+    - assets/design/images/google-svg-CKq.png
+    - assets/design/images/button-back-solid-wcj.png
+    - assets/design/images/icon-star-small.png
+    - assets/design/images/icon-lock-2w1.png
+    - assets/design/images/button-favorite.png
+    - assets/design/images/rectangle-10-qyy.png
+    - assets/design/images/icon-mobile-signal-iTh.png
+    - assets/design/images/group-18858.png
+    - assets/design/images/icon-star-small-DJP.png
+    - assets/design/images/vector-gCX.png
+    - assets/design/images/group-1171274734.png
+    - assets/design/images/search.png
+    - assets/design/images/icon-location.png
+    - assets/design/images/icon-location-gk7.png
+    - assets/design/images/group-18240.png
+    - assets/design/images/group-1171274734-DxB.png
+    - assets/design/images/group-1171274734-tRM.png
+    - assets/design/images/wifi-LAT.png
+    - assets/design/images/icon-location-Gb9.png
+    - assets/design/images/ellipse-2.png
+    - assets/design/images/icon-location-LZ5.png
+    - assets/design/images/shape-bg.png
+    - assets/design/images/icon-location-PVh.png
+    - assets/design/images/icon-location-Qjq.png
+    - assets/design/images/icon-star-small-Yb9.png
+    - assets/design/images/group.png
+    - assets/design/images/icon-star-small-1Wf.png
+    - assets/design/images/rectangle-20.png
+    - assets/design/images/statusbar-battery-fef.png
+    - assets/design/images/frame-27.png
+    - assets/design/images/button-favorite-ihV.png
+    - assets/design/images/group-1171274734-oD1.png
+    - assets/design/images/button-favorite-Tif.png
+    - assets/design/images/group-1171274734-Pdq.png
+    - assets/design/images/image-26.png
+    - assets/design/images/shape-bg-PZh.png
+    - assets/design/images/button-favorite-kq5.png
+    - assets/design/images/button-favorite-m1y.png
+    - assets/design/images/homeindicator.png
+    - assets/design/images/icon-location-nDd.png
+    - assets/design/images/image-26-AzB.png
+    - assets/design/images/image-26-xPh.png
+    - assets/design/images/image-26-5Pd.png
+    - assets/design/images/group-2c7.png
+    - assets/design/images/icon-mobile-signal-mDq.png
+    - assets/design/images/button-notification.png
+    - assets/design/images/group-18858-Pjm.png
+    - assets/design/images/shape-bg-jxT.png
+    - assets/design/images/item-star-full.png
+    - assets/design/images/shape-bg-BGB.png
+    - assets/design/images/frame-1000001182.png
+    - assets/design/images/homeindicator-GDd.png
+    - assets/design/images/vector-cEs.png
+    - assets/design/images/item-star-fade.png
+    - assets/design/images/mdi-bed-empty.png
+    - assets/design/images/group-rby.png
+    - assets/design/images/item-star-half.png
+    - assets/design/images/image-26-J8f.png
+    - assets/design/images/item-star-full-Fgj.png
+    - assets/design/images/shape-bg-8kw.png
+    - assets/design/images/ellipse-bg.png
+    - assets/design/images/iconoir-pin-alt.png
+    - assets/design/images/vector-NTh.png
+    - assets/design/images/image-26-Pwm.png
+    - assets/design/images/icon-location-Lsq.png
+    - assets/design/images/icon-mobile-signal-J2T.png
+    - assets/design/images/button-back-transparent-.png
+    - assets/design/images/item-star-fade-KSX.png
+    - assets/design/images/statusbar-battery-nNb.png
+    - assets/design/images/vector-5sM.png
+    - assets/design/images/item-star-full-P75.png
+    - assets/design/images/item-star-full-YRD.png
+    - assets/design/images/rectangle-21.png
+    - assets/design/images/item-star-full-M4T.png
+    - assets/design/images/item-star-full-XmZ.png
+    - assets/design/images/shape.png
+    - assets/design/images/item-star-full-by1.png
+    - assets/design/images/button-share.png
+    - assets/design/images/item-star-full-D91.png
+    - assets/design/images/wifi-Nfq.png
+    - assets/design/images/ic-baseline-water-drop.png
+    - assets/design/images/vector-7.png
+    - assets/design/images/item-star-full-rby.png
+    - assets/design/images/shape-Wsy.png
+    - assets/design/images/shape-8J3.png
+    - assets/design/images/item-star-full-yGb.png
+    - assets/design/images/iconoir-nav-arrow-down.png
+    - assets/design/images/item-star-full-Uwh.png
+    - assets/design/images/item-star-full-6Bq.png
+    - assets/design/images/cil-bathroom.png
+    - assets/design/images/frame-27-Dfd.png
+    - assets/design/images/shape-q9h.png
+    - assets/design/images/shape-Lkw.png
+    - assets/design/images/shape-Nn3.png
+    - assets/design/images/shape-6BZ.png
+    - assets/design/images/shape-zTH.png
+    - assets/design/images/vector-sEo.png
+    - assets/design/images/shape-iFR.png
+    - assets/design/images/shape-6Y7.png
+    - assets/design/images/shape-sWF.png
+    - assets/design/images/shape-QVV.png
+    - assets/design/images/layout-bg.png
+    - assets/design/images/shape-bg-A6j.png
+    - assets/design/images/group-18858-co1.png
+    - assets/design/images/wifi-izT.png
+    - assets/design/images/ellipse-bg-Ga3.png
+    - assets/design/images/shape-bg-ik7.png
+    - assets/design/images/vector-7-ks9.png
+    - assets/design/images/shape-bg-Z3u.png
+    - assets/design/images/homeindicator-EvK.png
+    - assets/design/images/icon-mobile-signal-dMR.png
+    - assets/design/images/iconoir-nav-arrow-down-AcF.png
+    - assets/design/images/statusbar-battery-9W7.png
+    - assets/design/images/cil-bathroom-UoH.png
+    - assets/design/images/shape-ytT.png
+    - assets/design/images/icon-location-Fb5.png
+    - assets/design/images/shape-5rw.png
+    - assets/design/images/ic-baseline-water-drop-8UP.png
+    - assets/design/images/frame-27-YkP.png
+    - assets/design/images/button-share-R6f.png
+    - assets/design/images/mdi-bed-empty-3Zq.png
+    - assets/design/images/statusbar-battery-KZH.png
+    - assets/design/images/shape-DM9.png
+    - assets/design/images/button-arrow-transparent-jbd.png
+    - assets/design/images/vector-rgF.png
+    - assets/design/images/wifi-yiF.png
+    - assets/design/images/icon-house-.png
+    - assets/design/images/icon-mobile-signal-Rq9.png
+    - assets/design/images/frame-1000001182-Swh.png
+    - assets/design/images/button-back-transparent--ioy.png
+    - assets/design/images/vector-ehd.png
+    - assets/design/images/group-uXm.png
+    - assets/design/images/shape-RCs.png
+    - assets/design/images/ellipse-bg-NQo.png
+    - assets/design/images/arrow-left-line-dew.png
+    - assets/design/images/button-favorite-efq.png
+    - assets/design/images/iconoir-pin-alt-ZoM.png
+    - assets/design/images/layout-bg-8Du.png
+    - assets/design/images/button-setting.png
+    - assets/design/images/button-back-solid-onw.png
+    - assets/design/images/button-favorite-a4X.png
+    - assets/design/images/icon-clock-fill.png
+    - assets/design/images/button-show-group-vertical-active.png
+    - assets/design/images/statusbar-battery-gKq.png
+    - assets/design/images/icon-clock-fill-pB9.png
+    - assets/design/images/shape-bg-qvo.png
+    - assets/design/images/shape-6j9.png
+    - assets/design/images/button-edit.png
+    - assets/design/images/ellipse-bg-6qV.png
+    - assets/design/images/shape-bg-4qV.png
+    - assets/design/images/wifi-beP.png
+    - assets/design/images/icon-star-small-qpj.png
+    - assets/design/images/icon-mobile-signal-MYj.png
+    - assets/design/images/shape-bg-WF1.png
+    - assets/design/images/button-edit-2gF.png
+    - assets/design/images/icon-location-Qkf.png
+    - assets/design/images/button-favorite-Cjq.png
+    - assets/design/images/button-edit-FQ3.png
+    - assets/design/images/button-edit-DG3.png
+    - assets/design/images/icon-mobile-signal-RpK.png
+    - assets/design/images/layout.png
+    - assets/design/images/icon-star-small-jGB.png
+    - assets/design/images/wifi-6s1.png
+    - assets/design/images/button-setting-ubD.png
+    - assets/design/images/shape-bg-Akf.png
+    - assets/design/images/shape-bg-8Ky.png
+    - assets/design/images/ellipse-bg-iWB.png
+    - assets/design/images/statusbar-battery-Fgs.png
+    - assets/design/images/icon-location-4Vm.png
+    - assets/design/images/pin-new-estate.png
+    - assets/design/images/group-b1q.png
+    - assets/design/images/button-favorite-AaK.png
+    - assets/design/images/wifi-bqy.png
+    - assets/design/images/button-back-solid-ZGK.png
+    - assets/design/images/shape-bg-iU7.png
+    - assets/design/images/layout-bg-Yq5.png
+    - assets/design/images/shape-bg-7gs.png
+    - assets/design/images/button-back-solid-6K9.png
+    - assets/design/images/arrow-left-line-Es9.png
+    - assets/design/images/statusbar-battery-Evb.png
+    - assets/design/images/button-edit-Zz7.png
+    - assets/design/images/button-edit-HyH.png
+    - assets/design/images/statusbar-battery-DAf.png
+    - assets/design/images/icon-mobile-signal-v4F.png
+    - assets/design/images/button-edit-8eb.png
+    - assets/design/images/button-add-transparent.png
+    - assets/design/images/icon-mobile-signal-kL7.png
+    - assets/design/images/shape-bg-AXH.png
+    - assets/design/images/button-arrow-transparent-YgF.png
+    - assets/design/images/arrow-left-line-gBH.png
+    - assets/design/images/wifi-Hvw.png
+    - assets/design/images/arrow-left-line-BMH.png
+    - assets/design/images/group-yqy.png
+    - assets/design/images/button-arrow-transparent-CMu.png
+    - assets/design/images/button-arrow-transparent-2es.png
+    - assets/design/images/icon-dollar.png
+    - assets/design/images/button-add-transparent-g7y.png
+    - assets/design/images/button-add-transparent-baw.png
+    - assets/design/images/icon-plus.png
+    - assets/design/images/wifi-FN7.png
+    - assets/design/images/button-back-solid-wCK.png
+    - assets/design/images/iconoir-mail.png
+    - assets/design/images/group-Dq1.png
+    - assets/design/images/icon-mobile-signal-j5y.png
+    - assets/design/images/button-add-transparent-28w.png
+    - assets/design/images/button-add-transparent-L31.png
+    - assets/design/images/button-add-transparent-np7.png
+    - assets/design/images/button-add-transparent-tu5.png
+    - assets/design/images/button-add-transparent-k15.png
+    - assets/design/images/button-back-solid-NEK.png
+    - assets/design/images/button-add-transparent-YSK.png
+    - assets/design/images/wifi-LqM.png
+    - assets/design/images/icon-mobile-signal-Ca3.png
+    - assets/design/images/wifi-kDM.png
+    - assets/design/images/group-RTu.png
+    - assets/design/images/button-add-transparent-PBm.png
+    - assets/design/images/button-add-transparent-gzj.png
+    - assets/design/images/icon-dollar-bBu.png
+    - assets/design/images/statusbar-battery-2Uo.png
+    - assets/design/images/button-add-transparent-JPh.png
+    - assets/design/images/icon-calendar.png
+    - assets/design/images/icon-mobile-signal-B5R.png
+    - assets/design/images/button-add-transparent-wMy.png
+    - assets/design/images/statusbar-battery-oHh.png
+    - assets/design/images/button-back-solid-o27.png
+    - assets/design/images/button-back-solid-tt7.png
+    - assets/design/images/iconoir-mail-rrs.png
+    - assets/design/images/icon-mobile-signal-b3m.png
+    - assets/design/images/icon-dollar-wh1.png
+    - assets/design/images/iconoir-mail-EV5.png
+    - assets/design/images/button-add-transparent-AfZ.png
+    - assets/design/images/statusbar-battery-nt7.png
+    - assets/design/images/icon-location-bcj.png
+    - assets/design/images/icon-calendar-3if.png
+    - assets/design/images/wifi-oLB.png
+    - assets/design/images/icon-ticket.png
+    - assets/design/images/group-8by.png
+    - assets/design/images/group-1171274734-mtK.png
+    - assets/design/images/group-Mef.png
+    - assets/design/images/image-26-4KR.png
+    - assets/design/images/icon-star-small-hUB.png
+    - assets/design/images/button-favorite-e8X.png
+    - assets/design/images/icon-messaging.png
+    - assets/design/images/icon-star-small-9wD.png
+    - assets/design/images/statusbar-battery-6Fq.png
+    - assets/design/images/icon-location-h2F.png
+    - assets/design/images/statusbar-battery-UDD.png
+    - assets/design/images/logo-mastercard-white-.png
+    - assets/design/images/icon-messaging-Ec7.png
+    - assets/design/images/wifi-BmZ.png
+    - assets/design/images/button-back-solid-bef.png
+    - assets/design/images/button-favorite-9mH.png
+    - assets/design/images/image-26-fGs.png
+    - assets/design/images/logo-visa-white-.png
+    - assets/design/images/icon-mobile-signal-KKM.png
+    - assets/design/images/logo-safar-small.png
+    - assets/design/images/button-radio.png
+    - assets/design/images/button-radio-2DM.png
+    - assets/design/images/arrow-left-line-fJF.png
+    - assets/design/images/statusbar-battery-Z8j.png
+    - assets/design/images/icon-calendar-Gjq.png
+    - assets/design/images/icon-calendar-WvK.png
+    - assets/design/images/arrow-left-line-Soq.png
+    - assets/design/images/button-radio-KuR.png
+    - assets/design/images/button-arrow-transparent-8Q7.png
+    - assets/design/images/logo-safar-small-cAB.png
+    - assets/design/images/icon-mobile-signal-WhV.png
+    - assets/design/images/logo-safar-small-GaB.png
+    - assets/design/images/button-radio-8u5.png
+    - assets/design/images/icon-messaging-GZM.png
+    - assets/design/images/logo-mastercard-white--J7y.png
+    - assets/design/images/logo-safar-small-uSw.png
+    - assets/design/images/icon-ticket-TFM.png
+    - assets/design/images/group-1171274734-c7q.png
+    - assets/design/images/button-arrow-transparent-YJ3.png
+    - assets/design/images/icon-calendar-cMd.png
+    - assets/design/images/wifi-y8j.png
+    - assets/design/images/image-26-HPd.png
+    - assets/design/images/icon-star-small-Af9.png
+    - assets/design/images/group-1171274734-EXZ.png
+    - assets/design/images/logo-visa-white--Mwd.png
+    - assets/design/images/icon-mobile-signal-pZV.png
+    - assets/design/images/icon-location-TMy.png
+    - assets/design/images/button-favorite-KD9.png
+    - assets/design/images/arrow-left-line-WdV.png
+    - assets/design/images/statusbar-battery-mhq.png
+    - assets/design/images/button-back-solid-23h.png
+    - assets/design/images/icon-location-9uH.png
+    - assets/design/images/logo-paypal-normal.png
+    - assets/design/images/image-26-dCb.png
+    - assets/design/images/button-arrow-transparent-6A3.png
+    - assets/design/images/wifi-p5D.png
+    - assets/design/images/icon-star-small-Pcj.png
+    - assets/design/images/image-26-j4B.png
+    - assets/design/images/button-back-solid-GhM.png
+    - assets/design/images/icon-calendar-kVM.png
+    - assets/design/images/group-1171274734-JLw.png
+    - assets/design/images/homeindicator-yY3.png
+    - assets/design/images/button-back-solid-a47.png
+    - assets/design/images/image-26-iLf.png
+    - assets/design/images/icon-location-sTm.png
+    - assets/design/images/statusbar-battery-XJw.png
+    - assets/design/images/button-favorite-ZaP.png
+    - assets/design/images/icon-mobile-signal-aET.png
+    - assets/design/images/arrow-left-line-a5M.png
+    - assets/design/images/button-arrow-transparent-64w.png
+    - assets/design/images/button-favorite-mSX.png
+    - assets/design/images/wifi-8nB.png
+    - assets/design/images/icon-star-small-nQo.png
+    - assets/design/images/logo-paypal-normal-fN7.png
+    - assets/design/images/icon-star-small-Gc7.png
+    - assets/design/images/icon-location-poy.png
+    - assets/design/images/group-1171274734-CX1.png
+    - assets/design/images/group-18858-Ao9.png
+    - assets/design/images/group-1171274734-rfH.png
+    - assets/design/images/button-favorite-9LB.png
+    - assets/design/images/group-1171274734-D9H.png
+    - assets/design/images/button-favorite-zRV.png
+    - assets/design/images/icon-location-GUf.png
+    - assets/design/images/image-26-LHu.png
+    - assets/design/images/frame-27-ZPD.png
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
